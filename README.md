@@ -23,7 +23,7 @@ This repository contains 10 python scripts that contain the 10 projects that I d
 Although I have provided the code for these projects, I would request beginner programmers to try to make these projects by themselves, as that would add up to their programming knowledge and skills.
 
 If you liked these projects, follow me on:
-YouTube: [YouTube](http://www.youtube.com/allaboutpython?sub_confirmation=1)
-Instagram: [Instagram](https://www.youtube.com/itsallaboutpython)
-Blog Site: [Site](https://itsallaboutpython.blogspot.com/)
-GitHub: [GitHub](https://github.com/visheshdvivedi/)
+YouTube: [YouTube](http://www.youtube.com/allaboutpython?sub_confirmation=1)\
+Instagram: [Instagram](https://www.youtube.com/itsallaboutpython)\
+Blog Site: [Site](https://itsallaboutpython.blogspot.com/)\
+GitHub: [GitHub](https://github.com/visheshdvivedi/)\
