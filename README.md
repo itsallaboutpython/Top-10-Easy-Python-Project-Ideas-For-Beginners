@@ -24,6 +24,6 @@ Although I have provided the code for these projects, I would request beginner p
 
 If you liked these projects, follow me on:\
 YouTube: [YouTube](http://www.youtube.com/allaboutpython?sub_confirmation=1)\
-Instagram: [Instagram](https://www.youtube.com/itsallaboutpython)\
+Instagram: [Instagram](https://www.instagram.com/itsallaboutpython)\
 Blog Site: [Site](https://itsallaboutpython.blogspot.com/)\
 GitHub: [GitHub](https://github.com/visheshdvivedi/)
