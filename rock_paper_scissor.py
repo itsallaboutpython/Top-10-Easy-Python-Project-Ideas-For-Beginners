@@ -8,8 +8,7 @@ positive = [[PAPER, ROCK], [SCISSOR, PAPER], [ROCK, SCISSOR]]
 negative = [[ROCK, PAPER], [PAPER, SCISSOR], [SCISSOR, ROCK]]
 
 def get_computer_move():
-    move = random.choice(choices)
-    return move
+    return random.choice(choices)
 
 def find_winner(user_move, computer_move):
     if [user_move, computer_move] in positive:
@@ -19,34 +18,29 @@ def find_winner(user_move, computer_move):
     return 0
 
 print("===== Welcome to Rock, Paper And Scissor Game =====")
-while 1:
-    choice = input("Do you wanna play (y/n): ")
-    if 'y' in choice.lower():
+while True:
+    choice = input("Do you wanna play (y/n): ").strip().lower()
+    if choice == 'y':
         computer_move = get_computer_move()
-        while 1:
-            move = input("Select a move ('r' for rock/'p' for paper/'s' for scissor): ").lower()
-            print(f"Computer's Move: {computer_move}")
-            if 'r' in move or 'p' in move or 's' in move():
-                if 'r' in move:
-                    user_move = ROCK
-                elif 'p' in move:
-                    user_move = PAPER
-                elif 's' in move:
-                    user_move = SCISSOR
+        while True:
+            move = input("Select a move ('r' for rock/'p' for paper/'s' for scissor): ").strip().lower()
+            if move in ['r', 'p', 's']:
+                user_move = {'r': ROCK, 'p': PAPER, 's': SCISSOR}[move]
                 print(f"User Move: {user_move}")
+                print(f"Computer's Move: {computer_move}")
                 output = find_winner(user_move, computer_move)
                 if output == 1:
                     print("User Won !!!")
                 elif output == -1:
                     print("Computer Won !!!")
                 else:
-                    print("Tie !!!")
+                    print("It's a Tie !!!")
                 break
             else:
                 print("Invalid input...please try again")
-    elif 'n' in choice.lower():
-        print("Exiting...")
+    elif choice == 'n':
+        print("Exiting... Thanks for playing!")
         break
     else:
-        print('Invalid input...please try again')
+        print("Invalid input...please try again")
     print()
