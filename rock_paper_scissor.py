@@ -26,7 +26,7 @@ while 1:
         while 1:
             move = input("Select a move ('r' for rock/'p' for paper/'s' for scissor): ").lower()
             print(f"Computer's Move: {computer_move}")
-            if 'r' in move or 'p' in move or 's' in move():
+            if 'r' in move or 'p' in move or 's' in move:
                 if 'r' in move:
                     user_move = ROCK
                 elif 'p' in move:
