@@ -12,13 +12,10 @@ while 1:
     if choice == 1:    
         print("Output: ", num1+num2)
     elif choice == 2:
-       
         print("Output: ", num1-num2)
     elif choice == 3:
-        
         print("Output: ", num1*num2)
     elif choice == 4:
-        
         print("Output: ", num1/num2)
     elif choice == 5:
         print("Exiting...")
