@@ -16,6 +16,8 @@ while 1:
     elif choice == 3:
         print("Output: ", num1*num2)
     elif choice == 4:
+        if num1 == 0 or num2 == 0:
+            exit()
         print("Output: ", num1/num2)
     elif choice == 5:
         print("Exiting...")
